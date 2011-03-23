@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  	<TableLayout android:id="@+id/TableLayout01"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+		<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1">
+			<LinearLayout android:id="@+id/zero"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+			</LinearLayout>
+			<LinearLayout android:id="@+id/half"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+			</LinearLayout>
+			<LinearLayout android:id="@+id/one"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+			</LinearLayout>
+			<LinearLayout android:id="@+id/two"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+			</LinearLayout>
+		</TableRow>
+
+		<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1">
+			<LinearLayout android:id="@+id/three"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+			</LinearLayout>
+			<LinearLayout android:id="@+id/five"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+			</LinearLayout>
+			<LinearLayout android:id="@+id/eight"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+			</LinearLayout>
+			<LinearLayout android:id="@+id/thirteen"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+			</LinearLayout>
+		</TableRow>
+
+		<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1">
+			<LinearLayout android:id="@+id/twenty"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+			</LinearLayout>
+			<LinearLayout android:id="@+id/fourty"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+			</LinearLayout>
+			<LinearLayout android:id="@+id/hundred"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+			</LinearLayout>
+			<LinearLayout android:id="@+id/question"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+			</LinearLayout>
+		</TableRow>
+
+		<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1">
+			<LinearLayout android:id="@+id/unused1"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+			</LinearLayout>
+			<LinearLayout android:id="@+id/infinite"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+			</LinearLayout>
+			<LinearLayout android:id="@+id/coffee"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+			</LinearLayout>
+			<LinearLayout android:id="@+id/unused2"
+					android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+			</LinearLayout>
+		</TableRow>
+
+	</TableLayout>
+  
+</LinearLayout>

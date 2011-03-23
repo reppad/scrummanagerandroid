@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TableLayout android:id="@+id/TableLayout01"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+		<TableRow android:id="@+id/TableRow01"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:gravity="center"
+				android:layout_weight="1">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/app_name"
+				android:id="@+id/title"
+				android:gravity="center"
+				android:textSize="20sp"
+				android:textStyle="bold"></TextView>
+		</TableRow>
+
+		<TableRow android:id="@+id/TableRow02"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1">
+			<LinearLayout android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+				<ImageView android:id="@+id/ImageCards"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:src="@drawable/cards"
+						android:onClick="clickCards"></ImageView>
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+				<ImageView android:id="@+id/ImageBoard"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:src="@drawable/clipboard"
+						android:onClick="clickBoard"></ImageView>
+			</LinearLayout>
+		</TableRow>
+
+		<TableRow android:id="@+id/TableRow03"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1">
+			<LinearLayout android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+				<ImageView android:id="@+id/ImageExtra"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:src="@drawable/star"
+						android:onClick="clickExtras"></ImageView>
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:gravity="center">
+				<ImageView android:id="@+id/ImageAbout"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:src="@drawable/help"
+						android:onClick="clickAbout"></ImageView>
+			</LinearLayout>
+
+		</TableRow>
+
+
+
+
+	</TableLayout>
+</LinearLayout>
