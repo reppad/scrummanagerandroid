@@ -33,4 +33,10 @@ public class Home extends Activity {
     public void clickAbout(View v) {
     	Toast.makeText(this, R.string.notimplemented, Toast.LENGTH_SHORT).show();
     }
+    
+    public void clickZero(View v) {
+		Intent card = new Intent(this, Card.class);
+		card.putExtra("cardValue", "0");
+		startActivity(card);
+	}
 }
