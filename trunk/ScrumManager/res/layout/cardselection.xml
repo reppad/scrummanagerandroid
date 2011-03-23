@@ -11,134 +11,268 @@
 		<TableRow android:layout_width="fill_parent"
 				android:layout_height="fill_parent"
 				android:layout_weight="1">
-			<LinearLayout android:id="@+id/zero"
-					android:orientation="vertical"
+			<LinearLayout android:orientation="vertical"
 					android:layout_width="fill_parent"
 					android:layout_height="fill_parent"
 					android:layout_weight="1"
-					android:gravity="center">
+					android:onClick="clickZero">
+				<TextView android:text="0"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:textSize="25sp"
+						android:textStyle="bold"
+						android:background="@drawable/roundedcornersquare2"
+						android:gravity="center"
+						android:layout_margin="5dp">
+				</TextView>
 			</LinearLayout>
-			<LinearLayout android:id="@+id/half"
-					android:orientation="vertical"
+			<LinearLayout android:orientation="vertical"
 					android:layout_width="fill_parent"
 					android:layout_height="fill_parent"
 					android:layout_weight="1"
-					android:gravity="center">
+					android:onClick="clickHalf">
+				<TextView android:text="1/2"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:textSize="25sp"
+						android:textStyle="bold"
+						android:background="@drawable/roundedcornersquare2"
+						android:gravity="center"
+						android:layout_margin="5dp">
+				</TextView>
 			</LinearLayout>
-			<LinearLayout android:id="@+id/one"
-					android:orientation="vertical"
+			<LinearLayout android:orientation="vertical"
 					android:layout_width="fill_parent"
 					android:layout_height="fill_parent"
 					android:layout_weight="1"
-					android:gravity="center">
+					android:onClick="clickOne">
+				<TextView android:text="1"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:textSize="25sp"
+						android:textStyle="bold"
+						android:background="@drawable/roundedcornersquare2"
+						android:gravity="center"
+						android:layout_margin="5dp">
+				</TextView>
 			</LinearLayout>
-			<LinearLayout android:id="@+id/two"
-					android:orientation="vertical"
+			<LinearLayout android:orientation="vertical"
 					android:layout_width="fill_parent"
 					android:layout_height="fill_parent"
 					android:layout_weight="1"
-					android:gravity="center">
-			</LinearLayout>
-		</TableRow>
-
-		<TableRow android:layout_width="fill_parent"
-				android:layout_height="fill_parent"
-				android:layout_weight="1">
-			<LinearLayout android:id="@+id/three"
-					android:orientation="vertical"
-					android:layout_width="fill_parent"
-					android:layout_height="fill_parent"
-					android:layout_weight="1"
-					android:gravity="center">
-			</LinearLayout>
-			<LinearLayout android:id="@+id/five"
-					android:orientation="vertical"
-					android:layout_width="fill_parent"
-					android:layout_height="fill_parent"
-					android:layout_weight="1"
-					android:gravity="center">
-			</LinearLayout>
-			<LinearLayout android:id="@+id/eight"
-					android:orientation="vertical"
-					android:layout_width="fill_parent"
-					android:layout_height="fill_parent"
-					android:layout_weight="1"
-					android:gravity="center">
-			</LinearLayout>
-			<LinearLayout android:id="@+id/thirteen"
-					android:orientation="vertical"
-					android:layout_width="fill_parent"
-					android:layout_height="fill_parent"
-					android:layout_weight="1"
-					android:gravity="center">
-			</LinearLayout>
-		</TableRow>
-
-		<TableRow android:layout_width="fill_parent"
-				android:layout_height="fill_parent"
-				android:layout_weight="1">
-			<LinearLayout android:id="@+id/twenty"
-					android:orientation="vertical"
-					android:layout_width="fill_parent"
-					android:layout_height="fill_parent"
-					android:layout_weight="1"
-					android:gravity="center">
-			</LinearLayout>
-			<LinearLayout android:id="@+id/fourty"
-					android:orientation="vertical"
-					android:layout_width="fill_parent"
-					android:layout_height="fill_parent"
-					android:layout_weight="1"
-					android:gravity="center">
-			</LinearLayout>
-			<LinearLayout android:id="@+id/hundred"
-					android:orientation="vertical"
-					android:layout_width="fill_parent"
-					android:layout_height="fill_parent"
-					android:layout_weight="1"
-					android:gravity="center">
-			</LinearLayout>
-			<LinearLayout android:id="@+id/question"
-					android:orientation="vertical"
-					android:layout_width="fill_parent"
-					android:layout_height="fill_parent"
-					android:layout_weight="1"
-					android:gravity="center">
+					android:onClick="clickTwo">
+				<TextView android:text="2"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:textSize="25sp"
+						android:textStyle="bold"
+						android:background="@drawable/roundedcornersquare2"
+						android:gravity="center"
+						android:layout_margin="5dp">
+				</TextView>
 			</LinearLayout>
 		</TableRow>
 
 		<TableRow android:layout_width="fill_parent"
 				android:layout_height="fill_parent"
 				android:layout_weight="1">
-			<LinearLayout android:id="@+id/unused1"
-					android:orientation="vertical"
+			<LinearLayout android:orientation="vertical"
 					android:layout_width="fill_parent"
 					android:layout_height="fill_parent"
 					android:layout_weight="1"
-					android:gravity="center">
+					android:onClick="clickThree">
+				<TextView android:text="3"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:textSize="25sp"
+						android:textStyle="bold"
+						android:background="@drawable/roundedcornersquare2"
+						android:gravity="center"
+						android:layout_margin="5dp">
+				</TextView>
 			</LinearLayout>
-			<LinearLayout android:id="@+id/infinite"
-					android:orientation="vertical"
+			<LinearLayout android:orientation="vertical"
 					android:layout_width="fill_parent"
 					android:layout_height="fill_parent"
 					android:layout_weight="1"
-					android:gravity="center">
+					android:onClick="clickFive">
+				<TextView android:text="5"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:textSize="25sp"
+						android:textStyle="bold"
+						android:background="@drawable/roundedcornersquare2"
+						android:gravity="center"
+						android:layout_margin="5dp">
+				</TextView>
 			</LinearLayout>
-			<LinearLayout android:id="@+id/coffee"
-					android:orientation="vertical"
+			<LinearLayout android:orientation="vertical"
 					android:layout_width="fill_parent"
 					android:layout_height="fill_parent"
 					android:layout_weight="1"
-					android:gravity="center">
+					android:onClick="clickEight">
+				<TextView android:text="8"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:textSize="25sp"
+						android:textStyle="bold"
+						android:background="@drawable/roundedcornersquare2"
+						android:gravity="center"
+						android:layout_margin="5dp">
+				</TextView>
 			</LinearLayout>
-			<LinearLayout android:id="@+id/unused2"
-					android:orientation="vertical"
+			<LinearLayout android:orientation="vertical"
 					android:layout_width="fill_parent"
 					android:layout_height="fill_parent"
 					android:layout_weight="1"
-					android:gravity="center">
+					android:onClick="clickThirteen">
+				<TextView android:text="13"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:textSize="25sp"
+						android:textStyle="bold"
+						android:background="@drawable/roundedcornersquare2"
+						android:gravity="center"
+						android:layout_margin="5dp">
+				</TextView>
 			</LinearLayout>
 		</TableRow>
+
+		<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1">
+			<LinearLayout android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:onClick="clickTwenty">
+				<TextView android:text="20"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:textSize="25sp"
+						android:textStyle="bold"
+						android:background="@drawable/roundedcornersquare2"
+						android:gravity="center"
+						android:layout_margin="5dp">
+				</TextView>
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:onClick="clickFourty">
+				<TextView android:text="40"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:textSize="25sp"
+						android:textStyle="bold"
+						android:background="@drawable/roundedcornersquare2"
+						android:gravity="center"
+						android:layout_margin="5dp">
+				</TextView>
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:onClick="clickHundred">
+				<TextView android:text="100"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:textSize="25sp"
+						android:textStyle="bold"
+						android:background="@drawable/roundedcornersquare2"
+						android:gravity="center"
+						android:layout_margin="5dp">
+				</TextView>
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:onClick="clickQuestion">
+				<TextView android:id="@+id/miniatureQuestion"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:textSize="25sp"
+						android:textStyle="bold"
+						android:background="@drawable/roundedcornersquare2"
+						android:gravity="center"
+						android:layout_margin="5dp">
+				</TextView>
+			</LinearLayout>
+		</TableRow>
+
+		<TableRow android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1">
+			<LinearLayout android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1">
+			<!--
+				<TextView android:text="0"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:textSize="25sp"
+						android:textStyle="bold"
+						android:background="@drawable/roundedcornersquare2"
+						android:gravity="center"
+						android:layout_margin="5dp"
+						android:onClick="clickZero">
+				</TextView>
+			-->
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:onClick="clickInfinite">
+				<TextView android:id="@+id/miniatureInfinite"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:textSize="35sp"
+						android:textStyle="bold"
+						android:background="@drawable/roundedcornersquare2"
+						android:gravity="center"
+						android:layout_margin="5dp">
+				</TextView>
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:onClick="clickCoffee">
+				<TextView android:id="@+id/miniatureCoffee"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:textSize="25sp"
+						android:textStyle="bold"
+						android:background="@drawable/roundedcornersquare2"
+						android:gravity="center"
+						android:layout_margin="5dp">
+				</TextView>
+			</LinearLayout>
+			<LinearLayout android:orientation="vertical"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1">
+			<!--
+				<TextView android:text="2"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:textSize="25sp"
+						android:textStyle="bold"
+						android:background="@drawable/roundedcornersquare2"
+						android:gravity="center"
+						android:layout_margin="5dp"
+						android:onClick="clickTwo">
+				</TextView>
+			-->
+			</LinearLayout>
+		</TableRow>
+
+		
 
 	</TableLayout>
   

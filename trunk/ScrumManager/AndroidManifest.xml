@@ -12,6 +12,7 @@
 		</activity>
 		
 		<activity class=".CardSelection" android:label="Card Selection" android:name=".activities.CardSelection"/>
+		<activity class=".Card" android:label="Card" android:name=".activities.Card"/>
 
 	</application>
 

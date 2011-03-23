@@ -3,4 +3,14 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="fill_parent"
   android:layout_height="fill_parent">
+  <TextView android:id="@+id/card"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:textSize="150sp"
+			android:textStyle="bold"
+			android:background="@drawable/roundedcornersquare"
+			android:gravity="center"
+			android:layout_margin="5dp"
+			android:onClick="clickInfinite">
+	</TextView>
 </LinearLayout>
