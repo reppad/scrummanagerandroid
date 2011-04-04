@@ -7,15 +7,37 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class ScrumManagerDatabase extends SQLiteOpenHelper {
 
-	//TODO build creation requests with DAOConstants
-	private static final String CREATE_TABLE_PROJECTS = "";
-	private static final String CREATE_TABLE_SPRINTS = "";
-	private static final String CREATE_TABLE_TASKS = "";
-	private static final String CREATE_TABLE_TEAMMEMBERS = "";
+	//creation requests
+	private static final String CREATE_TABLE_PROJECTS = "CREATE TABLE " + DAOConstants.TABLE_PROJECTS + " ("
+	+ DAOConstants.COL_ALL_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
+	+ DAOConstants.COL_ALL_NAME + " TEXT NOT NULL, "
+	+ DAOConstants.COL_PROJECTS_STARTDATE + " INTEGER NOT NULL, "
+	+ DAOConstants.COL_PROJECTS_ESTIMATEDDURATION + " INTEGER NOT NULL, "
+	+ DAOConstants.COL_ALL_STATE +  " INTEGER NOT NULL);";
+	
+	private static final String CREATE_TABLE_SPRINTS = "CREATE TABLE " + DAOConstants.TABLE_SPRINTS + " ("
+	+ DAOConstants.COL_ALL_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
+	+ DAOConstants.COL_SPRINTS_NUMBER + " INTEGER NOT NULL, "
+	+ DAOConstants.COL_ALL_NAME + " TEXT NOT NULL, "
+	+ DAOConstants.COL_SPRINTS_STARTDATE + " INTEGER NOT NULL, "
+	+ DAOConstants.COL_SPRINTS_THEORICALCAPACITY + " INTEGER NOT NULL, "
+	+ DAOConstants.COL_SPRINTS_ESTIMATEDDURATION + " INTEGER NOT NULL, "
+	+ DAOConstants.COL_ALL_STATE + " INTEGER NOT NULL, "
+	+ DAOConstants.COL_SPRINTS_PROJECTID +   " INTEGER NOT NULL);";
+	
+	private static final String CREATE_TABLE_TASKS = "CREATE TABLE " + DAOConstants.TABLE_TASKS + " ("
+	+ DAOConstants.COL_ALL_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
+	+ DAOConstants.COL_ALL_NAME + " TEXT NOT NULL, "
+	+ DAOConstants.COL_TASKS_ESTIMATEDCOMPLEXITY + " INTEGER NOT NULL, "
+	+ DAOConstants.COL_ALL_STATE + " INTEGER NOT NULL, "
+	+ DAOConstants.COL_TASKS_SPRINTID + " INTEGER NOT NULL, "
+	+ DAOConstants.COL_TASKS_PROJECTID + " INTEGER NOT NULL, "
+	+ DAOConstants.COL_TASKS_USERID +  " INTEGER NOT NULL);";
+	
+	private static final String CREATE_TABLE_TEAMMEMBERS = "CREATE TABLE " + DAOConstants.TABLE_TEAMMEMBERS + " ("
+	+ DAOConstants.COL_ALL_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
+	+ DAOConstants.COL_ALL_NAME + " TEXT NOT NULL);";
 
-	//	private static final String CREATE_BDD = "CREATE TABLE " + TABLE_LIVRES + " ("
-	//	+ COL_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + COL_ISBN + " TEXT NOT NULL, "
-	//	+ COL_TITRE + " TEXT NOT NULL);";
 
 	public ScrumManagerDatabase(Context context, String name, CursorFactory factory, int version) {
 		super(context, name, factory, version);
